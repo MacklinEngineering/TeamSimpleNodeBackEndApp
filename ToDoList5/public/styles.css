@@ -1,0 +1,41 @@
+body{
+  background-image: url("ToDoList.jpg");
+  background-size: cover;
+  background-position: top;
+}
+/* h3{
+  margin-top: 350px;
+  text-align: center;
+  font-size: 60px;
+
+} */
+
+#clearAll{
+  margin-left: 46%;
+  background-color: rgb(231,211,32);
+  border-radius: 20px;
+  font-size: 30px;
+  margin-top: 450px;
+}
+
+button{
+  /* margin-left: 40%; */
+  background-color: rgb(231,211,32);
+  border-radius: 20px;
+  font-size: 30px;
+}
+ul.messages{
+  text-align: center;
+  font-size: 25px;
+  list-style: none;
+}
+
+input{
+  margin-left: 38%;
+  font-size: 30px;
+
+}
+/* Somehow connects to server.js */
+.crossOut {
+  text-decoration: line-through;
+}

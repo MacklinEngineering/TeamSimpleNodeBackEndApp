@@ -1,0 +1,20 @@
+CRUD 
+Create: Adding Items to a list, user will fill out form 
+    app.get(/todo) ---> db.collection(items).save ----> creates new object---> {item:"milk", cross-out: false}
+
+
+
+
+Read: See all items added to the list
+
+Update: Cross out completed, clear completed, clear all
+     usr click (item) make boolean true 
+      add crossout: app.put(/todo) ---> db.collection(items)....change propertie of true ---> {....cross-out:true}
+      clear crossout : app.put(/todo) ---> db.collection(items)....find item with cross-out propertie of true ---> {....cross-out:true}
+      
+
+
+
+Delete: Clear all
+if boolean == true;
+    findOneAndDelete function 
